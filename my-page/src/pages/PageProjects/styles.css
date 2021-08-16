@@ -1,0 +1,24 @@
+.cont-projects {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+    transform: translateX(-20px);
+    overflow-x: auto;
+    display: flex;
+}
+
+.cont-page-projects {
+    width: 100vw;
+}
+
+
+
+@keyframes slide {
+    from {
+     opacity: 0;
+    }
+    to {
+     opacity: 1;
+     transform: translateX(0);
+    }
+}
