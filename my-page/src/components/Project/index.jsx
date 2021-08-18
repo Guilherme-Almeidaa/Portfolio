@@ -25,6 +25,11 @@ function Project({ project }) {
             className="link-project"
             target="_blank"
             rel="noreferrer"
+            style={{
+              pointerEvents: project.linkProject ? "" : "none",
+              backgroundColor: project.linkProject ? "" : "rgb(167, 119, 119)",
+              border: project.linkProject ? "" : "none",
+            }}
           >
             Projeto
           </a>

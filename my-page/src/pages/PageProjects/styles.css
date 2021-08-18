@@ -5,10 +5,30 @@
     transform: translateX(-20px);
     overflow-x: auto;
     display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    z-index: 10;
+   
 }
 
+.cont-page-projects::-webkit-scrollbar {
+    background-color: aqua;
+}
+
+
+
+
+
 .cont-page-projects {
-    width: 100vw;
+    width: 100%;
+}
+
+.button-next {
+    position: absolute;
+    width: 400px;
+    z-index: 1000;
+    float: right;
 }
 
 
