@@ -45,8 +45,9 @@ function PageBegin() {
         <section className="cont-text-resume">
           <h2>
             Eu sou o Guilherme ,tenho 27 anos e sou estudante de desenvolvimento
-            de software tenho muita vontade de aprender e gosto de desafios que
-            me fazem ir além da minha capaciade.
+            de software, adoro aprender coisas novas e gosto de desafios que me
+            fazem ir além da minha capacidade, por isso estou em busca de uma
+            oportunidade que satisfaz essas condições.
           </h2>
           <section className="cont-skills">
             <section className="skills">
