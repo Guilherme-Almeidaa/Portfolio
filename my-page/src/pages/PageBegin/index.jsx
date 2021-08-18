@@ -47,7 +47,7 @@ function PageBegin() {
             Eu sou o Guilherme ,tenho 27 anos e sou estudante de desenvolvimento
             de software, adoro aprender coisas novas e gosto de desafios que me
             fazem ir além da minha capacidade, por isso estou em busca de uma
-            oportunidade que satisfaz essas condições.
+            oportunidade para iniciar minha carreira como dev.
           </h2>
           <section className="cont-skills">
             <section className="skills">
