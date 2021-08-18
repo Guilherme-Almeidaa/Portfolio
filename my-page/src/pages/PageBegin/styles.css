@@ -9,13 +9,12 @@
     display: flex;
     justify-content: space-around;
     padding: 50px;
-    background-color: burlywood;
     border-radius: 30px;
-    box-shadow: 5px 5px 15px rgb(39, 38, 38);
     animation-name: slide;
     animation-duration: 2s;
     animation-fill-mode:forwards;
     transform: translateX(-20px);
+    background-color: burlywood;
 }
 
 .cont-text-resume {
@@ -32,6 +31,7 @@
     transform: translateX(-20px);
     box-shadow: 5px 5px 15px rgb(39, 38, 38);
     margin:50px;
+    background-color: white;
 }
 
 .icons-stacks {
@@ -45,9 +45,33 @@
 
 .image-tec {
     width:400px;
+    height: 400px;
     box-shadow: 5px 5px 15px rgb(39, 38, 38);
     border-radius: 100px;
-   
+}
+
+.icon-contact {
+    width: 60px;
+    position: absolute;
+    transition: .5s;
+}
+
+.icon-contact:hover {
+  width: 65px;
+}
+
+.coont-icons-contact {
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.cont-img-icons-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -58,5 +82,13 @@
     to {
      opacity: 1;
      transform: translateX(0);
+    }
+}
+
+
+@media (max-width:720px) { 
+
+    .cont-resume { 
+        flex-direction: column;
     }
 }

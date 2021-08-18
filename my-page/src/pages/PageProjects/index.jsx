@@ -14,11 +14,11 @@ function PageProjects() {
   };
   return (
     <div className="cont-page-projects">
+      <h1 className="title-projects">Projetos</h1>
       <div onWheel={scroll} className="cont-projects">
         {projects.map((project, index) => (
           <Project project={project} key={index} />
         ))}
-        <button className="button-next">Pŕoximo</button>
       </div>
     </div>
   );

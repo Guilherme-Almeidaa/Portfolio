@@ -11,11 +11,8 @@ function Header() {
       <Link to="/projects" className="links-header">
         Projetos
       </Link>
-      <Link to="/" className="links-header">
+      <Link to="/formation" className="links-header">
         Formação
-      </Link>
-      <Link to="/" className="links-header">
-        Contato
       </Link>
     </header>
   );

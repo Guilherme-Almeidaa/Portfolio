@@ -1,0 +1,38 @@
+.image-formation {
+    width: 500px;
+}
+
+.cont-formation {
+    display: flex;
+    background-color: burlywood;
+    border-radius: 5px;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateX(-20px);
+}
+
+.cont-page-formation {
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+.cont-tittle {
+    background-color: rgb(30, 206, 138);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.title-formation-text {
+    margin: 20px;
+}
+
+@keyframes slide {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
